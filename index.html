@@ -3,31 +3,31 @@
 	<head>
 		<meta charset = "utf-8">
 		<title> 자기소개1 </title>
+		<link href="./stylesheet/index.css" rel="stylesheet" type="text/css">	
 	</head>
-	<body style = "background-image:url('images/111.jpg'); background-repeat:no-repeat; background-position:left top;">
-		<h1>자기소개</h1><br>
-		안녕하세요 이번 웹프로그래밍을 듣게된 <b><em>박대성</em></b>입니다.<br><br>
-		<table style = "border : 0; width : 400px; cellpadding : 0; cellspacing : 0;">
-			<tr>
-				<td><hr style = "size : 1; noshade;"></td>
-			</tr>
-		</table>
-		<ul>
-			<li>이름 : 박대성</li>
-			<li>나이 : 22살</li>
-			<li>지역 : 서울</li>
-			<li>학교 : 명지대학교</li>
-			<li>학과 : 컴퓨터공학과</li>
-			<li>학번 : 60105254</li>
-			<li>취미 : <ol type = "i"><li>음악</li><li>사진찍기</li></ol></li>
-		</ul><br>
-		<table  style = "border : 0; width : 400px; cellpadding : 0; cellspacing : 0;">
-			<tr>
-				<td><hr style = "size : 1; noshade;"></td>
-			</tr>
-			</table>
-		<br>
-		<a href="index2.html">다음페이지</a>
-		<a href="index3.html">설문조사페이지</a>
+	<body>
+		<div id = "wrap" style = "background-image:url('images/111.jpg'); margin:0 auto;">
+			<div id = "navi">
+				<ul>
+					<li><a class="selected">자기소개</a></li>
+					<li><a href="index2.html">취미</a></li>
+					<li><a href="index3.html">설문조사</a></li>
+				</ul>
+			</div>
+			<div id= "line"></div>
+			<br>
+			안녕하세요 이번 웹프로그래밍을 듣게된 <b><em>박대성</em></b>입니다.<br><br>
+			<hr>
+			<ul>
+				<li>이름 : 박대성</li>
+				<li>나이 : 22살</li>
+				<li>지역 : 서울</li>
+				<li>학교 : 명지대학교</li>
+				<li>학과 : 컴퓨터공학과</li>
+				<li>학번 : 60105254</li>
+				<li>취미 : <div id = "lists"><ol type = "i"><li>음악</li><li>사진찍기</li></ol></div></li>
+			</ul>
+			<hr style = "size : 1; noshade;">
+		</div>
 	</body>
 </html>

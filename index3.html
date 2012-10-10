@@ -3,10 +3,21 @@
 	<head>
 		<meta charset = "utf-8">
 		<title> 자기소개3 </title>
+		<link href="./stylesheet/index.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
+	<div id = "wrap">
+		<div id ="navi">
+			<ul>
+				<li><a href="index.html">자기소개</a></li>
+				<li><a href="index2.html">취미</a></li>
+				<li><a class="selected">설문조사</a></li>
+			</ul>
+		</div>
+		<div id= "line"></div>
 		<form action = "url" method="post">
-			<table style = "margin-left:200px;" border = "1">
+			<div id = "btable">
+			<table>
 				<caption><b>설문조사</b></caption>
 				<tr>
 					<td>제 평소 태도는 어떻습니까? </td>
@@ -39,12 +50,9 @@
 					<td colspan = "2"><input type="submit" value="완료"></td>
 				</tr>
 			</table>
-			<table style = "margin-left:200px;">
-				<tr>
-					<td><a href="index.html">자기소개페이지</a></td>
-					<td><a href="index2.html">취미페이지</a></td>
-				</tr>
-			</table>
+			</div>
+
 		</form>
+	</div>
 	</body>
 </html>
