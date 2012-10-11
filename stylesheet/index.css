@@ -23,8 +23,6 @@ hr{size:1;}
 
 #wrap {width:960px; margin:0 auto; background-color:#FFFFFF;}
 
-#im {width:960px;height:1024px;background-image: url('images/111.jpg');}
-
 #lists li{list-style-type:lower-roman;}
 #btable table{border:1px solid;}
 #btable td{border:1px solid;}
@@ -36,7 +34,7 @@ hr{size:1;}
 #navi ul li a{
 	color:#fff; background-color:#207E62;
 	display:block;
-	width:120px;
+	width:299px;
 	text-align:center;
 	padding:0px 10px; 
 	font: bold 12px/30px Tahoma;
